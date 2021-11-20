@@ -1,2 +1,4 @@
-package br.com.zup;public enum DamageCategory {
+package br.com.zup;
+
+public enum DamageCategory {
 }

@@ -1,5 +1,5 @@
 Jogo de turnos Pokemon  
-
+<br/><br/>
 Lista de tarefas(ToDo):  
 
 - [x] Moldar Classes iniciais (Pokemon, Ability, Move)  
@@ -10,11 +10,11 @@ Lista de tarefas(ToDo):
 
 - [x] Criar Service para as classes  
 
-  
+  <br/><br/>
 - [ ] Criar método, nas services, que instancie os objetos de suas classes  
 
 - [ ] Criar Sistema para o usuário moldar um Pokemon com seus moves e abilities desejados  
-  
+  <br/><br/>
 
 - [ ] Criar um método na PokemonService que calcule o dano que o pokemon irá causar  
     Esse cálculo levará em consideração o Stat de Attack/SpATK do pokemon e o dano do move utilizado  
@@ -23,16 +23,16 @@ Lista de tarefas(ToDo):
     Esse cálculo aplicará as defesas do pokemon ao dano que está vindo como parâmetro  
 
 - [ ] Criar um método (ou atualizar um) que deduza da vida atual do pokemon que recebeu dano, o dano sofrido  
+  <br/><br/>
 
-  
 - [ ] Criar a Classe SistemaDeBatalha que será responsável pelo sistema de Turno de uma batalha  
 
 - [ ] Na SistemaDeBatalha, Criar um método com o turno do jogador  
     Esse método dará pro jogador as opções de turno de um jogo pokemon, que são Atacar, Utilizar itens ou Trocar de pokemon  
+  <br/><br/>
 
-  
 - [ ] Criar um NPC para o jogador batalhar contra  
-  
+  <br/><br/>
 
 - [ ] Na SistemaDeBatalha, Criar um método que fará o loop do turno do jogador e turno do inimigo, até um deles ser derrotado  
 

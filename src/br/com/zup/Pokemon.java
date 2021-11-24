@@ -8,14 +8,14 @@ public class Pokemon {
     private String nome;
     private Tipo tipoUm;
     private Tipo tipoDois;
-    private int hp;
-    private int defense;
-    private int spDef;
-    private int attack;
-    private int spAtk;
-    private int speed;
-    private List<Move> moveList;
-    private List<Ability>abilityList;
+    private int hp; // vida
+    private int defense; // defesa fisica
+    private int spDef; // defesa especial
+    private int attack; // ataque fisico
+    private int spAtk; // Ataque especial
+    private int speed; // velocidade
+    private List<Move> moveList; // Apesar do pokemon ter uma infinidade de possibilidades de move, ele só poderá ter 4 de cada vez
+    private List<Ability>abilityList; // Os pokemons tem de duas a três abilities
 
     public Pokemon() {
     }

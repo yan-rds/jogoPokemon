@@ -1,13 +1,13 @@
 package br.com.zup;
 
-public class Move {
+public class Move { // Poder
     private String nome;
-    private int level;
+    private int level; // Por enquanto é inutil, tá aqui porque na api tem isso
     private Tipo tipo;
-    private DamageCategory damageCategory;
+    private DamageCategory damageCategory; // Define se um ataque é especial, físico ou Status (não causa dano diretamente)
     private int power;
-    private int accuracy;
-    private int pp;
+    private int accuracy; // Taxa de acerto
+    private int pp; // quantidade de usos restantes
 
     public Move() {
     }

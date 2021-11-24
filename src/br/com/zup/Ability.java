@@ -1,7 +1,7 @@
 package br.com.zup;
 
 public class Ability {
-    private String nome;
+    private String nome; // Por enquanto só tem nome, futuramente elas terão seu efeito
 
     public Ability() {
     }

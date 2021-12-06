@@ -30,10 +30,10 @@ public class SistemaDeBatalha {
     }
 
     public static void escolherAtaque (Pokemon pokemon){
-        System.out.println("1-" +pokemon.getMoves.get(0));
-        System.out.println("2-" +pokemon.getMoves.get(1));
-        System.out.println("3-" +pokemon.getMoves.get(2));
-        System.out.println("4-" +pokemon.getMoves.get(3));
+        System.out.println("1-" +pokemon.getMoveList().get(0));
+        System.out.println("2-" +pokemon.getMoveList().get(1));
+        System.out.println("3-" +pokemon.getMoveList().get(2));
+        System.out.println("4-" +pokemon.getMoveList().get(3));
         int escolha = leitor("").nextInt();
 
         if (escolha == 1){
